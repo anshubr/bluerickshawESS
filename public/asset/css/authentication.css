@@ -1,0 +1,66 @@
+.authentication .authWrapper {
+    width: 100%;
+}
+
+.authentication .authWrapper, .file-cont-wrap, .file-wrap, .task-board-color .board-color-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.authentication .authWrapper .authContent {
+    padding: 20px 0;
+}
+
+.authentication .authWrapper .authContent .authLogo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.authentication .authWrapper .authContent .authLogo img {
+    width: 165px;
+}
+
+.authentication .authWrapper .authContent .authBox {
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+    margin:-110px auto 0px;
+    overflow: hidden;
+    width: 480px;
+    border-radius: 4px;
+}
+.authentication .authWrapper .authContent .authBox .auth_wrapper {
+    padding: 110px 30px 30px;
+}
+
+.authentication .authWrapper .authContent .authBox label {
+    color: #363A41;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.authentication .authWrapper .authContent .authBox .form-control {
+    background-color: #ffffff;
+    border: 1px solid rgba(18,166,255, 20%);
+    height: 46px;
+    border-radius: 4px;
+}
+.authentication .authWrapper .authContent .authBox #toggle-password {
+    cursor: pointer;
+    margin-right: 1px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.authentication .authWrapper .authContent .authBox .authBtn {
+    background: #CFEDFF;
+    /* background: linear-gradient(to right, #ff9b44 0%, #fc6075 100%); */
+    border: 0;
+    color: #363A41;
+    display: block;
+    font-size: 15px;
+    width:auto;
+    border-radius: 24px;
+    padding: 10px 65px;
+    margin: 30px auto;
+}

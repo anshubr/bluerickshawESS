@@ -1,0 +1,133 @@
+.card .card-title {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.timesheet, .att-statistics, .yourLeaves{min-height: 430px;}
+
+.punch-dete {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+}
+.punch-dete h6 {
+    line-height: 20px;
+    margin: 0;
+}
+.punch-dete p {
+    color: #727272;
+    font-size: 14px;
+    margin: 0;
+}
+.punch-info {
+    margin: 0 0 20px;
+}
+.punch-info .punch-hours {
+    background-color: #f9f9f9;
+    border: 5px solid #e3e3e3;
+    font-size: 18px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.punch-btn-section {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.punch-btn-section .punch-btn {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 100%;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.stats-box {
+    margin: 0 0 15px;
+    padding: 5px;
+}
+.stats-box p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.stats-box p span{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Statistics */
+.stats-info {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 0 12px;
+    padding:12px 15px;
+}
+.att-statistics .stats-info p {
+    font-size: 12px;
+    margin: 0 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.att-statistics .progress {
+    height: 4px;
+}
+
+/* Your Leave */
+
+.yourLeave {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+}
+.yourLeave h6 {
+    line-height: 20px;
+    margin: 0;
+}
+.yourLeave p {
+    color: #727272;
+    font-size: 14px;
+    margin: 0;
+}
+.yourLeave-info {
+    margin: 0 0 20px;
+}
+.yourLeave-info .yourLeave-hours {
+    background-color: #f9f9f9;
+    border: 5px solid #e3e3e3;
+    font-size: 18px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.yourLeave-btn-section {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.yourLeave-btn-section .yourLeave-btn {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 100%;
+    padding: 8px 40px;
+    border-radius: 50px;
+}

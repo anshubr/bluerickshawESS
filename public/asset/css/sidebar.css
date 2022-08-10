@@ -1,0 +1,124 @@
+.sidebar {
+    background-color: #34444c;
+    border-right: 1px solid transparent;
+    margin-top: 0;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 230px;
+    z-index: 1001;
+}
+
+.sidebar .sidebar-inner {
+    height: 100%;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.sidebar .sidebar-menu {
+    padding: 10px 0;
+}
+
+.sidebar .sidebar-menu ul {
+    font-size: 15px;
+    position: relative;
+}
+.sidebar .sidebar-menu ul li.menu-title {
+    color: #ebebeb;
+    font-size: 14px;
+    opacity: 1;
+    padding: 5px 15px;
+    white-space: nowrap;
+}
+.sidebar .sidebar-menu ul li {
+    position: relative;
+}
+.sidebar .sidebar-menu ul li a {
+    justify-content: flex-start;
+    position: relative;
+    font-size: 15px;
+    color: #b7c0cd;
+    height: auto;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 8px 15px;
+    display: flex;
+    display: -webkit-box;
+}
+.sidebar .sidebar-menu ul li a i {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    width: 20px;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.sidebar .sidebar-menu ul li a span {
+    display: inline-block;
+    margin-left: 15px;
+    white-space: nowrap;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+/* .sidebar .sidebar-menu ul li a span {
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin-left: 15px;
+    white-space: nowrap;
+} */
+.sidebar .sidebar-menu ul li a .menu-arrow {
+    display: inline-block;
+    font-family: "FontAwesome";
+    text-rendering: auto;
+    line-height: 40px;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 18px;
+    top: 11px;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    right: 15px;
+}
+.sidebar .sidebar-menu ul li a.subdrop .menu-arrow {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+.sidebar .sidebar-menu ul li a .menu-arrow::before {
+    content: "\f105";
+}
+.sidebar .sidebar-menu ul {
+    font-size: 15px;
+    position: relative;
+}
+
+.sidebar .sidebar-menu ul ul a {
+    display: block;
+    font-size: 14px;
+    position: relative;
+    padding: 9px 10px 9px 50px;
+}
+
+.sidebar .sidebar-menu ul ul a.active {
+    color: #ff9b44;
+    text-decoration: underline;
+}
+
